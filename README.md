@@ -33,21 +33,21 @@ Perfect for learning OOP, file I/O, date handling, basic authentication, and sim
 - **Date handling**: `<chrono>`, `<ctime>`
 
 ## 📁 Project Structure
-├── main.cpp                # Program entry point
-├── Library.h / .cpp        # Core library logic & menus
-├── Admin.h / .cpp          # Admin user & menu
-├── Member.h / .cpp         # Member user & menu
-├── User.h / .cpp           # Base user class (username/password)
-├── Book.h / .cpp           # Book entity
-├── IssuedBook.h / .cpp     # Issued book record
-├── Date.h / .cpp           # Date utilities & due date logic
-├── global.h / .cpp         # Helper functions (first-run check, etc)
+├── main.cpp                    # Program entry point
+├── Library.h  /  Library.cpp   # Core library logic & menus
+├── Admin.h    /  Admin.cpp     # Admin user & menu
+├── Member.h   /  Member.cpp    # Member user & menu
+├── User.h     /  User.cpp      # Base user class (username/password)
+├── Book.h     /  Book.cpp      # Book entity
+├── IssuedBook.h / IssuedBook.cpp # Issued book record
+├── Date.h     /  Date.cpp      # Date utilities & due date logic
+├── global.h   /  global.cpp    # Helper functions (first-run check etc)
 └── Data files (auto-generated)
 ├── admin_info.txt
 ├── members.txt
 ├── books.txt
 └── issued_books.txt
-text## 🚀 Getting Started
+
 
 ### ALL FILES IN HEADERS AND SRC SHOULD BE IN THE SAME FOLDER FOR WORKING / YOU MAY GIVE THEIR PATHS IF NOT
 ### 1. Clone the repository
